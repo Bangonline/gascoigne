@@ -1,0 +1,18 @@
+# WPEngine deployment configuration
+# This file helps ensure consistent deployments
+
+# Remote path where files should be deployed
+remote_path: wp-content/themes/gascoigne-2014/
+
+# Files to exclude from deployment (in addition to .gitignore)
+exclude:
+  - .git/
+  - .github/
+  - node_modules/
+  - less/
+  - scss/
+  - *.md
+  - wpengine.yaml
+  - package*.json
+  - gulpfile.js
+  - docs/
